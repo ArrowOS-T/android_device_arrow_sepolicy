@@ -18,3 +18,7 @@
 
 # Bash
 /(system_ext|system/system_ext)/bin/bash          u:object_r:shell_exec:s0
+
+# PropImitation
+/data/system/props\.json                       u:object_r:extra_spoof_data_file:s0
+/data/system/keys\.xml                         u:object_r:extra_spoof_data_file:s0
